@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {
+    background-color: #000033;
+}
+
+.color-text {
+    color: aliceblue;
+    font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 2vw;
+}
+
+h2 {
+    color: chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1vw;
+    text-align: justify;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    text-align: justify;
+}
+
+button {
+	width: 20vw;
+	padding:  10px 0;
+    background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+    border-radius: 5vw;
+	transition: 0.4s background;
+	cursor: pointer;
+}

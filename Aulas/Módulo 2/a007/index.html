@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .div1 {
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        .div1:hover {
+            background-color: red;
+        }
+
+        .tamanho {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        div:hover > p {
+            display: block;
+            color: blue;
+            background-color: aquamarine;
+        }
+
+        .texto:hover {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Exemplos de Hover</h1>
+        <h2>Blocos Coloridos</h2>
+        <div class="div1">01</div>
+        <div class="div1">02</div>
+        <div class="div1">03</div>
+        <h2>Texto Colorido</h2>
+        <p>Passe o mouse sobre o texto abaixo.</p>
+        <div class="texto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint magni autem aut blanditiis doloremque, totam debitis vero amet, perspiciatis cum repudiandae, itaque enim minus officia suscipit in est numquam nesciunt!
+            <p class="tamanho">TEXTO ESCONDIDO...</p>
+        </div>
+    </body>
+</html>

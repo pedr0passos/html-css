@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 370px;
+    flex-wrap: wrap;
+}
+
+
+.b1 {
+    background-color: black;
+    width: 40%;
+}
+
+.b2 {
+    background-color: rgb(94, 94, 94);
+    width: 60%;
+    text-align: center;
+}
+
+.b3 {
+    background-color: rgb(61, 161, 255);
+    text-align: center;
+    height: 370px;
+}

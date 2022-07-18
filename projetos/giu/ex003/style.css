@@ -8,8 +8,7 @@
 
 .container {
     display: flex;
-    height: 370px;
-    flex-wrap: wrap;
+    height: 40vh;
 }
 
 
@@ -27,5 +26,5 @@
 .b3 {
     background-color: rgb(61, 161, 255);
     text-align: center;
-    height: 370px;
+    height: 60vh;
 }

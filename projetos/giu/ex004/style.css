@@ -6,21 +6,30 @@
 
 }
 
+
 h2 {
     text-align: center;
     padding: 10px;
 }
 
-th {
-    text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid black;
+td { 
+
+    padding: 1px;
+    width: 125px;
 }
 
 table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     margin: 20px;
     width: 500px;
-    border: 1px solid black;
 }
 
+#input{
+    margin-left: 200px;
+}
+
+.tam {
+    width: 420px;
+}
 

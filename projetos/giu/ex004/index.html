@@ -10,64 +10,67 @@
 
     <body>
 
-        <table>
+        <h2>Ficha Cadastral</h2>
 
-            <tr>
-                <th>Ficha Cadastral</th>
-            </tr>
-
-            <tr>
-
-                <td>Nome:</td>
-                <td><input type="text"></td>
-
-            </tr>
-
-            <tr>
-
-                <td>RG:</td>
-                <td><input type="number"></td>
-                <td>C.P.F.:</td>
-                <td><input type="number"></td>
-
-            </tr>
-
-            <tr>
-
-                <td>Enderço:</td>
-                <td><input type="text"></td>
-
-            </tr>
-
-            <tr>
-
-                <td>Sexo:</td>
-                <td>
-
-                    <select>
-                        <option value="Masculino">Masculino</option>
-                        <option value="Feminino">Feminino</option>
-                    </select>
-                </td>
-                <td>Data Nascimento:</td>
-                <td><input type="text"></td>
-
-            </tr>
-
-            <tr>
-                <td>Situação Civil: </td>
-                <td><input type="radio">Solteiro(a)</td>
-                <td><input type="radio">Casado(a)</td>
-                <td><input type="radio">Viúvo(a)</td>
-            </tr>
-
-            <tr>
-
-                <td><input type="reset" value="Limpar Dados"></td>
+            <table>
             
-            </tr>
+                <tr>
+    
+                    <td>Nome:</td>
+                    <td colspan="3"><input type="text"  class="tam"></td>
+    
+                </tr>
+    
+                <tr>
+    
+                    <td> RG:</td>
+                    <td><input type="number"></td>
+                    <td> C.P.F.:</td>
+                    <td><input type="number"></td>
+    
+                </tr>
+    
+                <tr>
+    
+                    <td>Endereço:</td>
+                    <td colspan="3"><input type="text"  class="tam"></td>
+    
+                </tr>
+    
+                <tr>
+    
+                    <td>Sexo:</td>
+                    <td>
+    
+                        <select>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                        </select>
+                    </td>
+                    <td>Data Nascimento</td>
+                    <td><input type="date"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Situação Civil: </td>
+                    <td><input type="radio">Solteiro(a)</td>
+                    <td><input type="radio">Casado(a)</td>
+                    <td><input type="radio">Viúvo(a)</td>
+                </tr>
+    
+    
+                <tfoot>
+                    
+                    <td colspan="4"><input type="reset" value="Limpar Dados" id="input"></td>
+                
+                </tfoot>
+                
+    
+    
+            </table>   
+        
 
-        </table>       
     </body>
     
 </html>

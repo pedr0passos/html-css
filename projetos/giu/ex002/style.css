@@ -17,20 +17,23 @@ body {
 
 }
 
-.bloco1 {
+header {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.55);
     padding: 10pt;
 }
 
-.bloco2 {
+main {
     padding: 10pt;
     line-height: 40pt;
 }
 
-.bloco3 {
+footer {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.55);
     padding: 10pt;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
 }
 

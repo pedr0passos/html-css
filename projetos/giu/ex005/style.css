@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+body {
+    font-size: 12px;
+}
+
+td {
+    width: 135px;
+    padding: 2px;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 15px;
+    color: green;
+}
+
+.input-tam {
+    width: 410px;
+}
+
+#form {
+    position: relative;
+    bottom: 30px; 
+}
+
+#p-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

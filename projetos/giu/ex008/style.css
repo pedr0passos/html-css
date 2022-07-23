@@ -25,6 +25,18 @@ table {
     margin-top: 20px;
 }
 
+caption {
+    margin: auto;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+td {
+    color: #666666;
+}
+
 td, th {
     padding: 5px;
     text-align: center;
@@ -34,6 +46,13 @@ tr {
     border: 1px solid #DDDDDD;
 }
 
+tbody > tr {
+    background-color: #F7F7F7;
+}
+
+tbody > tr > td:nth-child(2n) {
+    background-color: white;
+}
 
 .titulos {
     font-size: 13px;
@@ -62,6 +81,7 @@ tr {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    background-color: white;
 }
 
 .a-claro {
@@ -69,6 +89,7 @@ tr {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    background-color: white;
 }
 
 .laranja {
@@ -76,6 +97,7 @@ tr {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    background-color: white;
 }
 
 .cinza {
@@ -83,6 +105,7 @@ tr {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    background-color: white;
 }
 
 .verm {
@@ -90,8 +113,25 @@ tr {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    background-color: white;
 }
 
 .b-top {
     border-top: 2px solid #DDDDDD;
+}
+
+#siglas {
+    font-size: 10px;
+    color: #555555;
+    font-weight: bold;
+    text-align: start;
+    padding: 10px;
+}
+
+#significados {
+    font-size:10px;
+    color: #555555;
+    font-weight: normal;
+    text-align: start;
+    padding: 0px 10px 10px 10px;
 }

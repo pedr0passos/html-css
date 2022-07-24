@@ -1,2 +1,60 @@
 @charset "utf-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(155, 83, 31);
+    height: 20vh;
+}
+
+menu {
+    background-color: green;
+    height: 5vh;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+}
+
+.b1 {
+    width: 50vw;
+    background-color: cadetblue;
+}
+
+.b2 {
+    width: 50vw;
+    background-color: mediumseagreen;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    background-color: purple;
+}
+
+@media (max-width: 992px) {
+    header {
+        background-color: black;
+        height: 10vh;
+    }
+    main {
+        display: block;
+    }
+    .b1 {
+        background-color: steelblue ;
+        width: 100vw;
+        height: 40vh;
+    }
+    .b2 {
+        background-color: rgb(187, 26, 58);
+        width: 100vw;
+        height: 40vh;
+    }
+
+}

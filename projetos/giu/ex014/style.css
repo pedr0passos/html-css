@@ -6,6 +6,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* CABEÇALHO */
+
 header {
     background-color: #006600;
     padding: 10px;
@@ -44,5 +46,38 @@ header > span {
     font-size: 16px;
     font-weight: bold;
     text-align: end;
+}
+
+/* CONTEUDO PRINCIPAL */
+
+nav {
+    background-color: black;
+    height: 10vh;
+    width: 80vw;
+    text-align: end;
+    margin: 5px;
+    border-radius: 18px 0px 0px 0px;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.269);
+}
+nav > div {
+    position: relative;
+    padding: 30px;
+    
+}
+nav > div > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+nav > div > a:hover {
+    background-color: white;
+    color: darkblue;
+    text-decoration: underline;
+    border-radius: 10px;
+    transition: 0.4s;
 }
 

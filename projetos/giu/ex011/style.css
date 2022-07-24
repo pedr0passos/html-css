@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+div {
+    background-color: yellow;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    div {
+        display: none;
+    }
+}

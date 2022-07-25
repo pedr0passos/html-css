@@ -3,14 +3,20 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* CABEÇALHO */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 header {
+    height: 5vh;
     background-color: #006600;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.269);
 }
 
 header > span {
@@ -21,10 +27,24 @@ header > span {
     text-decoration: none;
     color: white;
     margin-left: 100px;
+    transition: 0.2s;
+    padding: 10px;
+}
+
+.links > a:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    background-color: #0F243E;
+    transition: 0.4s;
 }
 
 .container {
     display: flex;
+}
+
+.container2 {
+    display: flex;
+    height: 80.5vh;
 }
 
 .info, .links {
@@ -54,18 +74,19 @@ header > span {
 /* NAVEGAÇÃO */
 
 nav {
+
     background-color: black;
     height: 110px;
     width: 80vw;
     text-align: end;
-    margin: 5px;
     border-radius: 18px 0px 0px 0px;
-    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.269);
+
 }
 
 nav > div {
     position: relative;
     padding: 35px;
+    top: 10px;
 }
 
 nav > div > a {
@@ -87,14 +108,48 @@ nav > div > a:hover {
 
 /* CURSOS E LOGO */
 
+.bloco1 {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.269);
+    margin: 5px 5px 5px 5px;
+    border-radius: 18px 0px 0px 18px;
+}
+
+#principal {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+article {
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#banner {
+    width: 720px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-image: url(media/banner.jpg);
+    background-size: 100%;
+}
+
+.logo > a  {
+    margin: auto;
+}
+
 img {
-    padding: 15px;
+
     position: absolute;
-    left: 33%;
     transition: 0.2s;
     margin: auto;
-    margin-top: 10px;
-    
+    left: 37%;
+    top: 22%;
+
 }
 
 img:hover {
@@ -103,6 +158,7 @@ img:hover {
 }
 
 .bloco2 {
+
     width: 20vw;
     border-radius: 0px 18px 0px 0px;
     background-color: white;
@@ -120,46 +176,85 @@ img:hover {
 }
 
 .logo {
-    box-shadow: 3px -3px 10px rgba(0, 0, 0, 0.269);
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.269);
     border-radius: 0px 18px 0px 0px;
     height: 110px;
+    transition: 0.2s;
+    display: flex;
     position: relative;
-    
 }
 
 .box {
     margin-top: 5px;
-    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.179);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.179);
     height: 200px;
+    position: relative;
 }
 
 #curso1 {
-    border: 2px solid green;
     background-image: url(media/curso1.jpg);
     background-position: center;
     margin: auto;
     margin-top: 10px;
     width: 200px;
-    height: 150px;
-    background-color: black;
+    height: 130px;
+    transition: 0.2s;
 }
+
+#curso1:hover {
+    transform: scale(0.95);
+    transition: 0.2s;
+}
+
 #curso2 {
     background-image: url(media/curso2.jpg);
     background-position: center;
     margin: auto;
     margin-top: 10px;
+    position: inherit;
+    top: 30px;
     width: 200px;
-    height: 150px;
-    background-color: black;
+    height: 130px;
+    transition: 0.2s;
 }
-
+#curso2:hover {
+    transform: scale(0.95);
+    transition: 0.2s;
+}
 #curso3 {
     background-image: url(media/curso3.jpg);
     background-position: center;
     margin: auto;
     margin-top: 10px;
+    position: inherit;
+    top: 30px;
     width: 200px;
-    height: 150px;
-    background-color: black;
+    height: 130px;
+    transition: 0.2s;
+}
+
+.radio {
+    border-radius: 0px 0px 18px 0px;
+}
+
+#curso3:hover {
+    transform: scale(0.95);
+    transition: 0.2s;
+}
+
+footer {
+    background-color:  #0F243E;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 28px;
 }
 

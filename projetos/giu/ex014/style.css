@@ -50,20 +50,24 @@ header > span {
 
 /* CONTEUDO PRINCIPAL */
 
+
+/* NAVEGAÇÃO */
+
 nav {
     background-color: black;
-    height: 10vh;
+    height: 110px;
     width: 80vw;
     text-align: end;
     margin: 5px;
     border-radius: 18px 0px 0px 0px;
     box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.269);
 }
+
 nav > div {
     position: relative;
-    padding: 30px;
-    
+    padding: 35px;
 }
+
 nav > div > a {
     text-decoration: none;
     font-weight: bold;
@@ -79,5 +83,83 @@ nav > div > a:hover {
     text-decoration: underline;
     border-radius: 10px;
     transition: 0.4s;
+}
+
+/* CURSOS E LOGO */
+
+img {
+    padding: 15px;
+    position: absolute;
+    left: 33%;
+    transition: 0.2s;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.bloco2 {
+    width: 20vw;
+    border-radius: 0px 18px 0px 0px;
+    background-color: white;
+    height: max-content;
+    margin: 5px 5px 5px 0px;
+    
+}
+
+.bloco2 > div > p {
+    height: max-content;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.logo {
+    box-shadow: 3px -3px 10px rgba(0, 0, 0, 0.269);
+    border-radius: 0px 18px 0px 0px;
+    height: 110px;
+    position: relative;
+    
+}
+
+.box {
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.179);
+    height: 200px;
+}
+
+#curso1 {
+    border: 2px solid green;
+    background-image: url(media/curso1.jpg);
+    background-position: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+}
+#curso2 {
+    background-image: url(media/curso2.jpg);
+    background-position: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+    background-color: black;
+}
+
+#curso3 {
+    background-image: url(media/curso3.jpg);
+    background-position: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+    background-color: black;
 }
 

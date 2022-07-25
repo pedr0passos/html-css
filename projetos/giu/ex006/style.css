@@ -8,22 +8,19 @@
 }
 
 main {
+
     width: 400px;
     height: max-content;
     margin: auto;
     margin-top: 20px;
-
-}
-
-main {
     text-align: center;
     padding: 10px;
     line-height: 2em;
     color: darkblue;
     border: 2px solid black;
+    
 }
 
- .bold {
-    display: inline;
+span {
     font-weight: bold;
 }

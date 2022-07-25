@@ -120,6 +120,10 @@ tbody > tr > td:nth-child(2n) {
     border-top: 2px solid #DDDDDD;
 }
 
+#legenda {
+    caption-side: bottom;
+}
+
 #siglas {
     font-size: 10px;
     color: #555555;

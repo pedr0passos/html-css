@@ -27,9 +27,9 @@ header {
 }
 
 main {
-    width: 1000px;
+    
     margin: auto;
-    display: flex;
+    width: 1250px;
 
 }
 
@@ -58,6 +58,10 @@ h3 {
 
 nav {
     padding: 20px;
+}
+
+.b1, .b2, .b3 {
+    float: left;
 }
 
 .b1 {
@@ -96,9 +100,8 @@ nav {
 
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1250px) {
     main {
-        display: block;
         width: 100%;
     }
     .b1, .b2, .b3 {

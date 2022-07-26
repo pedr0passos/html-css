@@ -127,9 +127,11 @@ tbody > tr > td:nth-child(2n) {
 .l2 {
     background-color: var(--ac);
 }
+
 .l3 {
     background-color: var(--l);
 }
+
 .l4 {
     background-color: var(--v);
 }

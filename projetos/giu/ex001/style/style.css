@@ -17,36 +17,24 @@
 
 }
 
+
 header {
 
     background-color: var(--ce);
-    padding: 20px;
     font-size: 12px;
     width: 100%;
 
 }
 
 main {
-
-    width: 90vw;
+    width: 1000px;
     margin: auto;
     display: flex;
 
 }
 
-.b1 {
-
-    background-color: var(--cc);
-    padding: 30px;
-    width: 0px;
-    height: max-content;
-    line-height: 1.5em;
-
-}
-
-
 h1 {
-    padding: 20px;
+    padding: 40px;
     font-weight: normal;
     font-size: 2.5em;
     display: inline-block;
@@ -54,7 +42,7 @@ h1 {
 
 h2 {
 
-    padding: 30px 20px 30px 0;
+    padding: 30px 20px 30px 20px;
     font-weight: normal;
     font-size: 2em;
 
@@ -63,19 +51,30 @@ h2 {
 h3 {
 
     font-size: 1em;
-    margin-bottom: 20px;
     font-weight: normal;
+    padding: 20px;
 
 }
 
+nav {
+    padding: 20px;
+}
 
-main > .b2 {
-    
-    line-height: 1.8em;
+.b1 {
+    background-color: var(--cc);
+    width: 200px;
+    height: max-content;
+    line-height: 1.5em;
 
 }
 
 .b2 {
+
+    width: 800px;
+    line-height: 1.8em;
+}
+
+.b2 > p {
 
     padding: 20px;
 
@@ -84,9 +83,8 @@ main > .b2 {
 .b3 {
 
     background-color: var(--cc);
-    width: 0px;
+    width: 250px;
     height: max-content;
-    padding: 30px;
     line-height: 1.2em;
 
 }
@@ -94,19 +92,17 @@ main > .b2 {
 .b3 > p {
 
     font-size: 0.86em;
+    padding: 20px;
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1020px) {
     main {
         display: block;
-    }
-    .b1 {
-        width: 100vw;
-        padding: 20px 0px 20px 20px;
-    }
-    main , header, .b3 {
         width: 100%;
     }
-}
+    .b1, .b2, .b3 {
+        width: 100%;
 
+    }
+}

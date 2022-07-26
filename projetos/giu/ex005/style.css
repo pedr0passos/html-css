@@ -21,6 +21,11 @@ td {
     padding: 2px;
 }
 
+.alinhamento {
+    text-align: right;
+}
+
+
 #titulo {
     font-weight: bold;
     font-size: 15px;

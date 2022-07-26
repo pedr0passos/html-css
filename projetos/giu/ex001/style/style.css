@@ -12,6 +12,7 @@
 
     margin: 0;
     padding: 0;
+    border: 0;
     font-family: var(--font);
 
 }
@@ -21,27 +22,34 @@ header {
     background-color: var(--ce);
     padding: 20px;
     font-size: 12px;
-    width: 100vw;
+    width: 100%;
 
 }
 
-nav {
+main {
+
+    width: 90vw;
+    margin: auto;
+    display: flex;
+
+}
+
+.b1 {
 
     background-color: var(--cc);
     padding: 30px;
+    width: 0px;
+    height: max-content;
+    line-height: 1.5em;
 
 }
 
-nav > ul {
-
-    list-style-type: none;
-
-}
 
 h1 {
     padding: 20px;
     font-weight: normal;
     font-size: 2.5em;
+    display: inline-block;
 }
 
 h2 {
@@ -67,30 +75,16 @@ main > .b2 {
 
 }
 
-.container {
-
-    display: flex;
-
-}
-
-.b1 {
-
-    width: 100vw;
-    height: max-content;
-    line-height: 1.5em;
-
-}
-
 .b2 {
 
-    margin: 20px;
+    padding: 20px;
 
 }
 
 .b3 {
 
     background-color: var(--cc);
-    width: 100vw;
+    width: 0px;
     height: max-content;
     padding: 30px;
     line-height: 1.2em;
@@ -104,18 +98,15 @@ main > .b2 {
 }
 
 @media (max-width: 700px) {
-    .container {
+    main {
         display: block;
     }
     .b1 {
         width: 100vw;
         padding: 20px 0px 20px 20px;
     }
-    .b3 {
-        width: 100vw;
-    }
-    header {
-        width: 100vw;
+    main , header, .b3 {
+        width: 100%;
     }
 }
 

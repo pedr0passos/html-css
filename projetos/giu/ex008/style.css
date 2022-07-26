@@ -120,22 +120,43 @@ tbody > tr > td:nth-child(2n) {
     border-top: 2px solid #DDDDDD;
 }
 
-#legenda {
+.l1 {
+    background-color: var(--am);
+}
+
+.l2 {
+    background-color: var(--ac);
+}
+.l3 {
+    background-color: var(--l);
+}
+.l4 {
+    background-color: var(--v);
+}
+
+caption {
     caption-side: bottom;
+    font-size: 10px;
+    text-align: left;
 }
 
 #siglas {
-    font-size: 10px;
+    margin: 10px 10px 10px 0px;
     color: #555555;
     font-weight: bold;
-    text-align: start;
-    padding: 10px;
 }
 
 #significados {
     font-size:10px;
     color: #555555;
     font-weight: normal;
-    text-align: start;
     padding: 0px 10px 10px 10px;
+}
+
+.l1, .l2, .l3, .l4 {
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    margin: 0px 5px 0px 10px;
 }
